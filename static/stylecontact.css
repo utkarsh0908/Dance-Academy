@@ -1,5 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
 
-#submaincontact{
-    margin-top: 100px;
+/* NAVBAR */
+
+#logo{
+    background: center/cover no-repeat url("/static/logo.jpg");
+    height: 4rem;
+    width: 12rem;
+    margin-right: 15rem;
+}
+#navbar{
     display: flex;
+    position: fixed;
+    padding: 8px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.486);
+    width: 100%;
+}
+
+#navi{
+    display: flex;
+    margin-top: 0.8rem;
+}
+
+#navbar ul{
+    
+    display: flex;
+    
+}
+
+#navbar li{
+    list-style: none;
+    padding: .4rem 0.9rem;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+#navbar li a:hover{
+    text-decoration: none;
+    color: rgb(255, 215, 0);
+}
+
+#join{
+    display: flex;
+    height: fit-content;
+    margin-top: 0.4rem;
+    margin-left: 23rem;
+    border: .04rem solid gold;
+    padding: .4rem;
+}
+
+#join:hover{
+    transition: ease-in 400ms;
+    color: black;
+    display: flex;
+    height: fit-content;
+    margin-top: 0.4rem;
+    margin-left: 23rem;
+    border: .04rem solid gold;
+    padding: .4rem;
+    background-color: white;
+}
+
+/* INTRO SECTION */
+#introsection{
+    
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 0rem;
+}
+
+#main{
+    color: gold;
+    margin-top: 115px;
+    padding-left: 250px;
+    padding-top: 100px;
+}
+
+#submain{
+    padding-left: 250px;
+    font-size: 25px;
+}
+
+/* CONTACT SECTION */
+#contactsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 45rem; 
+    color: white;
+}
+#contactmain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-top: 10rem;
+}
+
+
+.myInput{
+    padding: 0.2rem;
+    display: block;
+    margin: .8rem;
+    width: 50rem;
+    border: 0.2rem solid gold;
+    border-radius: .2rem;
+}
+
+#issue{
+    height: 5rem;
+}
+/* FOOTER  */
+#footer{
+    background-color:rgba(0, 0, 0, 0.575);
+    height: 30px;
+    
 }

@@ -1,9 +1,36 @@
-extends base.pug 
-block title 
-    title Contact us
-block scripts
-block style 
-    include ../static/stylecontact.css 
-block content
-    section#submaincontact
-        |this is content
+doctype html 
+html 
+    head    
+        style 
+            include ../static/stylecontact.css 
+    body 
+        
+        section#introsection
+            nav#navbar
+                div#logo
+                ul  
+                    div#navi
+                     li #[a(href = "/") HOME]
+                     li #[a(href = "/") ABOUT]
+                     li #[a(href = "/") SERVICES]
+                     li #[a(href = "/") CLASSES]
+                     li #[a(href = "/contact") CONTACT US]
+
+                div#join
+                    | Join Now
+            
+            
+        section#contactsection
+            div#contactmain
+                | Contact Form
+                form(action="/contact", method="post" id="form")
+                    input(type="text", class="myInput", name="name", placeholder="Enter your name") 
+                    input(type="number", class="myInput", name="name", placeholder="Enter your age") 
+                    input(type="text", id="issue", class="myInput", name="name", placeholder="Enter your issue") 
+                    input(type="text", class="myInput", name="name", placeholder="Enter your name") 
+                button()
+        footer#footer 
+            | our footer here
+
+        script 
+            include ../static/script.js          

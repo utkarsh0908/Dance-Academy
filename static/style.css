@@ -53,10 +53,24 @@
 }
 
 #join{
+    display: flex;
+    height: fit-content;
     margin-top: 0.4rem;
-    margin-left: 14rem;
+    margin-left: 23rem;
     border: .04rem solid gold;
     padding: .4rem;
+}
+
+#join:hover{
+    transition: ease-in 400ms;
+    color: black;
+    display: flex;
+    height: fit-content;
+    margin-top: 0.4rem;
+    margin-left: 23rem;
+    border: .04rem solid gold;
+    padding: .4rem;
+    background-color: white;
 }
 
 /* INTRO SECTION */
@@ -68,8 +82,6 @@
     font-size: 40px;
     display: flex;
     flex-direction: column;
-    
-    
     background-color: red;
     height: 500px;
 }
