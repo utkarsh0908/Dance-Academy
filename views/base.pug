@@ -1,0 +1,25 @@
+doctype html 
+html 
+    head 
+        block title
+        block scripts 
+        style
+            include ../static/style.css
+            block style
+    body
+        section#Main
+            nav#navbar
+                div#logo
+                ul  
+                    div#navi
+                        li #[a(href = "/") HOME]
+                        li #[a(href = "/") ABOUT]
+                        li #[a(href = "/") SERVICES]
+                        li #[a(href = "/") CLASSES]
+                        li #[a(href = "/contact") CONTACT US]
+
+                div#join
+                    | Join Now
+        block content    
+        footer#footer
+            | copyright

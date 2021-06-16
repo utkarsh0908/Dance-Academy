@@ -11,9 +11,9 @@
 
 #logo{
     background: center/cover no-repeat url("/static/logo.jpg");
-    height: 50px;
-    width: 150px;
-    margin-right: 280px;
+    height: 4rem;
+    width: 12rem;
+    margin-right: 15rem;
 }
 #navbar{
     display: flex;
@@ -27,7 +27,7 @@
 
 #navi{
     display: flex;
-    margin-top: 10px;
+    margin-top: 0.8rem;
 }
 
 #navbar ul{
@@ -38,25 +38,25 @@
 
 #navbar li{
     list-style: none;
-    padding: 5px 30px;
+    padding: .4rem 0.9rem;
 }
 
 #navbar li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    
 }
 
 #navbar li a:hover{
     text-decoration: none;
     color: rgb(255, 215, 0);
-    font-size: 17px;
 }
 
 #join{
-    margin-top: 10px;
-    margin-left: 250px;
-    border: 1px solid gold;
-    padding: 10px;
+    margin-top: 0.4rem;
+    margin-left: 14rem;
+    border: .04rem solid gold;
+    padding: .4rem;
 }
 
 /* INTRO SECTION */
@@ -94,11 +94,6 @@
     background-color: rgba(0, 0, 0, 0.342);
     height: 500px; 
 }
-
-/* #sponsormain{
-    
-    
-} */
 
 /* FOOTER  */
 #footer{
